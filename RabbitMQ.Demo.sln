@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01基本用法_Consumer", "01基本用法_Consumer\01基本用法_Consumer.csproj", "{A8A23FEC-C504-40FF-8AE0-E971D2E21BEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01基本用法_Consumer", "01基本用法_Consumer\01基本用法_Consumer.csproj", "{A8A23FEC-C504-40FF-8AE0-E971D2E21BEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01基本用法_Publisher", "01基本用法_Publisher\01基本用法_Publisher.csproj", "{B670FBB3-B973-4B23-9433-2D87231AF874}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01基本用法_Publisher", "01基本用法_Publisher\01基本用法_Publisher.csproj", "{B670FBB3-B973-4B23-9433-2D87231AF874}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02主题发布订阅_Consumer", "02主题发布订阅_Consumer\02主题发布订阅_Consumer.csproj", "{6524321D-98F9-47F1-85AA-93DE51A60D9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02主题发布订阅_Publisher", "02主题发布订阅_Publisher\02主题发布订阅_Publisher.csproj", "{EB03F093-E12A-4024-AB1C-FCB9C4E4842A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{B670FBB3-B973-4B23-9433-2D87231AF874}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B670FBB3-B973-4B23-9433-2D87231AF874}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B670FBB3-B973-4B23-9433-2D87231AF874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6524321D-98F9-47F1-85AA-93DE51A60D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6524321D-98F9-47F1-85AA-93DE51A60D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6524321D-98F9-47F1-85AA-93DE51A60D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6524321D-98F9-47F1-85AA-93DE51A60D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB03F093-E12A-4024-AB1C-FCB9C4E4842A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB03F093-E12A-4024-AB1C-FCB9C4E4842A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB03F093-E12A-4024-AB1C-FCB9C4E4842A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB03F093-E12A-4024-AB1C-FCB9C4E4842A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

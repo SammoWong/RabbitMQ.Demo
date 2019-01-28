@@ -25,6 +25,7 @@ namespace _01基本用法_Publisher
                         Console.Write("请输入要发送的消息：");
                         var message = Console.ReadLine();
                         var body = Encoding.UTF8.GetBytes(message);
+                        //发送数据包
                         channel.BasicPublish("", queue, null, body);
                         Console.WriteLine("已发送的消息： {0}", message);
                     }
