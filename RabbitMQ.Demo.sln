@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02主题发布订阅_Consum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02主题发布订阅_Publisher", "02主题发布订阅_Publisher\02主题发布订阅_Publisher.csproj", "{EB03F093-E12A-4024-AB1C-FCB9C4E4842A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03高级特性_Consumer", "03高级特性_Consumer\03高级特性_Consumer.csproj", "{E76DB27D-C70C-4792-90F6-FE27BFA39E98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03高级特性_Publisher", "03高级特性_Publisher\03高级特性_Publisher.csproj", "{B840B06A-8877-451C-B9DD-9D56AE90D4A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{EB03F093-E12A-4024-AB1C-FCB9C4E4842A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB03F093-E12A-4024-AB1C-FCB9C4E4842A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB03F093-E12A-4024-AB1C-FCB9C4E4842A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E76DB27D-C70C-4792-90F6-FE27BFA39E98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E76DB27D-C70C-4792-90F6-FE27BFA39E98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E76DB27D-C70C-4792-90F6-FE27BFA39E98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E76DB27D-C70C-4792-90F6-FE27BFA39E98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B840B06A-8877-451C-B9DD-9D56AE90D4A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B840B06A-8877-451C-B9DD-9D56AE90D4A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B840B06A-8877-451C-B9DD-9D56AE90D4A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B840B06A-8877-451C-B9DD-9D56AE90D4A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
